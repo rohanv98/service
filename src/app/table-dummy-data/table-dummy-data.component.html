@@ -1,0 +1,43 @@
+<h5>Dummy data getting through service:</h5>
+<input type="text" [(ngModel)]="term" class="form-control" placeholder="Search by name,salary,age" style="width:40%;margin:30px 40px;float:right;">
+<pagination-contols class="pagination" (pagechange)="p = $event"></pagination-contols>
+<table>
+    <thead>
+    <tr>
+    <th>Id</th>
+    <th>Employee_name</th>
+    <th>Employee_salary</th>
+    <th>Employee_age</th>
+    </tr>
+    </thead>
+    <tbody *ngFor="let tableData of table_Data |  filter:term | paginate: { itemsPerPage: 6, currentPage: p }; let i=index">
+    <tr>
+    <td>{{tableData.id}}</td>
+    <td>{{tableData.employee_name}}</td>
+    <td>{{tableData.employee_salary}}</td>
+    <td>{{tableData.employee_age}}</td>
+    </tr>
+    </tbody>
+    </table>
+
+    
+    <nav aria-label="Page navigation example">
+        <ul class="pagination"  style="margin: 25px auto;justify-content: center !important;">
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" (click)="page1(1)">1</a></li>
+          <li class="page-item"><a class="page-link" (click)="page2(2)">2</a></li>
+          <li class="page-item"><a class="page-link" (click)="page3(3)">3</a></li>
+          <li class="page-item"><a class="page-link" (click)="page4(4)">4</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+              <span class="sr-only">Next</span>
+            </a>
+          </li>
+        </ul>
+      </nav>

@@ -1,0 +1,51 @@
+<svg id="Events" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164" height="164" viewBox="0 0 164 164">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-opacity: 0.98;
+        stroke-width: 2px;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #41cd7b;
+      }
+
+      .cls-3 {
+        fill: #30cc71;
+        fill-rule: evenodd;
+        filter: url(#filter-3);
+      }
+    </style>
+    <filter id="filter" x="-1" y="-1" width="166" height="166" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="3.708" dy="11.413" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.164"/>
+      <feFlood result="flood" flood-opacity="0.08"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="34" y="27" width="87" height="87" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODciIGhlaWdodD0iODciIHZpZXdCb3g9IjAgMCA4NyA4NyI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgb3BhY2l0eTogMC4wOTsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeTE9IjYyLjg2NyIgeDI9Ijg3IiB5Mj0iMjQuMTMzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iLTAuMjUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxLjI1IiBzdG9wLWNvbG9yPSIjZmZmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI4NyIgaGVpZ2h0PSI4NyIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+    <filter id="filter-3" x="230.688" y="561" width="37.625" height="49.531" filterUnits="userSpaceOnUse">
+      <feFlood result="flood" flood-color="#fff"/>
+      <feComposite result="composite" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g style="fill: #fff; filter: url(#filter)">
+    <circle id="Ellipse_726_copy" data-name="Ellipse 726 copy" class="cls-1" cx="77.5" cy="70.5" r="43.5" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Ellipse_726_copy" style="stroke: #fff; filter: none; fill: none"/>
+  <g style="fill: #41cd7b; filter: url(#filter)">
+    <circle id="Ellipse_726_copy_5" data-name="Ellipse 726 copy 5" class="cls-2" cx="77.5" cy="70.5" r="43.5" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Ellipse_726_copy_5" style="stroke: #fff; filter: none; fill: none"/>
+  <path id="new_vector_shape_done" class="cls-3" d="M248.318,561c9.981-.282,8.679,15.644.2,15.468-0.511-.388-1.3-0.435-1.832-0.814-2.885-2.05-4.807-8.09-2.238-12.008C245.411,562.181,247.02,562.112,248.318,561Zm-3.867,14.654c0.437,0.272.729,0.56,1.221,0.814v0.407a19.651,19.651,0,0,1-2.646,1.628c-1.38.513-2.8,0.533-4.07,1.017-0.839,1.981-.945,4.242-1.629,6.513a20.168,20.168,0,0,0-1.221,5.292h0.2c1.048-.671,2.382-0.556,3.663-1.018,1.869-.674,4.217-1.406,6.106-2.035a8.435,8.435,0,0,0,2.239-.611c0.485-.746.23-2.938,0.2-4.07h0.2l-0.2-.407c-0.913.693-1.124,1.742-1.832,2.646-0.544.695-2.617,1.319-3.46,1.628-1.317.482-2.884,1.212-3.052-.611,1.07-.5,4.635-1.3,5.291-2.035,1.325-1.474,1.906-4.985,4.274-5.292,0.575,0.9,3.047,5.055,3.664,5.5,1.559,1.115,4.883.38,5.088,2.85h-0.407c-0.646.348-1.264-.2-1.832-0.407-3.554-1.3-4.139-1.157-5.9-4.274a0.575,0.575,0,0,0-.2.2c-0.253.524-.019,3.061,0,4.274a0.578,0.578,0,0,1,.2.2c3.719,0.212,8.528,2.589,12.211,3.46V589.9c-1.466-1.8-1.4-9.138-3.053-10.38-1.975-1.323-5.642-.646-6.513-3.052a4.013,4.013,0,0,1,1.425-.611c1.425,1.882,5.872,1.072,6.716,3.46,0.778,1.114.544,2.585,1.018,4.07,0.84,2.632,1.968,5.5,2.035,8.752a3.928,3.928,0,0,1-2.646.61c-0.913-.794-3.463-1.319-4.884-1.424v0.2h-0.2c-0.207,1.473-.778,2.259-0.814,4.071,1.024,1.1,1.551,2.633,2.646,3.663v0.407h-0.407a1.181,1.181,0,0,1-1.221.2c-0.527-1.479-2-2.269-2.442-3.867-0.59-2.152.67-3.584,0.814-5.292h-0.407c-0.743-.587-1.814-0.484-2.85-0.814-0.457-.146-1.415-0.7-1.831-0.814-1.312-.355-4.989,1.311-6.309,1.628v0.814c2.061,2.648.151,8.228-2.85,8.345v-0.2l-0.407.2v-0.2a0.738,0.738,0,0,1-.2-0.407,6.61,6.61,0,0,0,2.849-5.088c-0.52-.7-0.5-1.939-1.018-2.646a1.374,1.374,0,0,0-.814-0.2c-1.371.986-3.922,1.421-6.1,1.424a3.49,3.49,0,0,1-.611-2.442c0.693-.932.405-2.164,0.814-3.46,0.518-1.639,1.135-3.841,1.628-5.5q0.2-1.221.407-2.442C238.093,577.462,243.007,577.142,244.451,575.654Zm-10.38,24.626a18.312,18.312,0,0,1,5.7,1.017c2.05,0.579,3.714.449,5.7,1.018,0.977,0.279,3.171,1.264,4.274,1.017,2.433-.542,5.54-1.363,7.937-2.035,1.246-.349,1.97-0.062,3.257-0.407,0.862-.231,2.276-0.961,3.663-0.61,1.979,0.5,5.059,3.684,3.053,6.512-1.2,4.462-8.028,3.46-13.636,3.46-5.669,0-18.307,1.159-21.573-1.221-1.99-1.45-1.859-3.693-1.628-6.309a29.092,29.092,0,0,0,2.442-2.239A1.318,1.318,0,0,0,234.071,600.28Z" transform="translate(-171 -516)"/>
+</svg>

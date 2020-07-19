@@ -1,0 +1,26 @@
+ <!--circular menu-->
+ <section id="box" style="width:500px;height:300px;border:1px solid black;background-color:lightgreen">
+    <div id="circularMenu" class="circular-menu" cdkDrag>
+        <a class="floating-btn" onclick="document.getElementById('circularMenu').classList.toggle('active'); " (click)="changeIcon()">
+            <i class="" *ngIf="isIcon">
+                <img class="circle-menu-expand" src="assets/img/circular/Menu-Close.svg" alt="expand">
+            </i>
+            <i class="" *ngIf="!isIcon">
+                <img class="circle-menu-close" src="assets/img/circular/cross.svg" width="" height="" alt="close">
+            </i>
+        </a>
+        <menu class="items-wrapper">
+            
+            <a *ngIf="dashboardicon" class="menu-item " (click)="dashboard()"> <img src="assets/img/circular/Dashboard-white.svg" class="circle-image"  title="Dash Board" alt="image"><span class="menu-content">Dash Board</span></a>
+            <a *ngIf="!dashboardicon" class="menu-item " > <img src="assets/img/circular/Dashboard-green.svg"  class="circle-image" title="Dash Board" alt="image"><span class="menu-content">Dash Board</span></a>
+            <a *ngIf="jobicon" class="menu-item" (click)="jobpage()"> <img src="assets/img/circular/Jobs-white.svg" class="circle-image" title="Jobs"  alt="image"><span class="menu-content">Jobs</span></a>
+            <a *ngIf="!jobicon" class="menu-item" (click)="jobpage()"> <img src="assets/img/circular/Jobs-green.svg" class="circle-image" title="Jobs"  alt="image"><span class="menu-content">Jobs</span></a>
+            <a *ngIf="stressicon" class="menu-item" (click)="stressbusterpage()"> <img src="assets/img/circular/stress-buster-white.svg"  class="circle-image" title="Stress Buster" alt="image"><span class="menu-content">Stress Buster</span></a>
+            <a *ngIf="!stressicon" class="menu-item" (click)="stressbusterpage()"> <img src="assets/img/circular/stress-buster-green.svg"  class="circle-image" title="Stress Buster" alt="image"><span class="menu-content">Stress Buster</span></a>
+            <a *ngIf="profilecatg" class="menu-item" (click)="profileCatg()"> <img src="assets/img/circular/cv-white-png.png" class="circle-image-png" title="profile-Build" alt="image"><span class="menu-content">Profile-Build</span></a>
+            <a *ngIf="!profilecatg" class="menu-item" (click)="profileCatg()"> <img src="assets/img/circular/cv-green-png.png" class="circle-image-png" title="profile-Build" alt="image"><span class="menu-content">Profile-Build</span></a>
+            <a *ngIf="cvedit" class="menu-item " (click)="cvEdit()"> <img src="assets/img/circular/edit-cv-white-png.png" class="circle-image-png" title="cv-edit" alt="image"><span class="menu-content">CV-Editor</span></a>
+            <a *ngIf="!cvedit" class="menu-item " (click)="cvEdit()"> <img src="assets/img/circular/edit-cv-green-png.png" class="circle-image-png" title="cv-edit" alt="image"><span class="menu-content">Dash Board</span></a>
+        </menu>
+    </div>
+ </section>

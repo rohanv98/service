@@ -1,0 +1,34 @@
+<svg id="Profile-builder" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="164" height="164" viewBox="0 0 164 164">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-opacity: 0.98;
+        stroke-width: 2px;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #2fcc70;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="filter" x="-1" y="-1" width="166" height="166" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="3.708" dy="11.413" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.164"/>
+      <feFlood result="flood" flood-opacity="0.08"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="34" y="27" width="87" height="87" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODciIGhlaWdodD0iODciIHZpZXdCb3g9IjAgMCA4NyA4NyI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgb3BhY2l0eTogMC4wOTsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeTE9IjYyLjg2NyIgeDI9Ijg3IiB5Mj0iMjQuMTMzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iLTAuMjUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxLjI1IiBzdG9wLWNvbG9yPSIjZmZmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI4NyIgaGVpZ2h0PSI4NyIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <g style="fill: #fff; filter: url(#filter)">
+    <circle id="Ellipse_726_copy" data-name="Ellipse 726 copy" class="cls-1" cx="77.5" cy="70.5" r="43.5" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#Ellipse_726_copy" style="stroke: #fff; filter: none; fill: none"/>
+  <path id="new_vector_shape_done_copy_21" data-name="new_vector_shape_done copy 21" class="cls-2" d="M236.775,261.958h18.554c3.241,0,6.088-.4,7.5,1.5,1.288,1.74.889,5.564,0.889,8.555v20.109c0,3.6.426,6.692-1.778,8.166-1.015.678-2.418,0.666-4.166,0.666H240.219c-2.826,0-4.742.158-5.944-1.5a6.887,6.887,0,0,1-.888-2.166v-29.33a12.086,12.086,0,0,1,.111-2.389,6.648,6.648,0,0,1,.222-1.222,4.462,4.462,0,0,1,1.833-1.944A9.451,9.451,0,0,0,236.775,261.958Zm0.278,2.445a2.54,2.54,0,0,0-1.111,1,4.218,4.218,0,0,0-.056,1.334V296.01a4.128,4.128,0,0,0,.167,1.722c0.647,1.183,3.729.778,5.555,0.778h17.22a3.391,3.391,0,0,0,1.722-.222c0.7-.468.667-1.372,0.667-2.556V267.291a5.572,5.572,0,0,0-.056-1.889,2.162,2.162,0,0,0-.611-0.777,4.158,4.158,0,0,0-2-.222h-21.5Zm7.443,2.777h8.055c0.486,0.137,1.257.992,0.778,1.667-0.292.918-1.459,0.777-2.667,0.777h-4.388a5.406,5.406,0,0,1-1.944-.111,2.775,2.775,0,0,1-.611-0.666C243.647,267.669,243.866,267.758,244.5,267.18Zm3.444,7.222c3.29-.043,5.051,1.432,6,3.721a5.51,5.51,0,0,1,.333,3.222,7.015,7.015,0,0,1-.611,1.722,2.488,2.488,0,0,0-.5.833,7.031,7.031,0,0,1,4.333,4.167,8.888,8.888,0,0,1,.333,3c0,1.1.219,2.847-.277,3.5-0.473.621-2.972,0.389-4.111,0.389h-9.666c-0.854,0-3.362.166-3.888-.111-0.825-.435-0.611-1.923-0.611-3.167v-2.11a7.362,7.362,0,0,1,2.388-4.444,7.768,7.768,0,0,1,1.5-.945,1.413,1.413,0,0,0,.833-0.389,5.682,5.682,0,0,1-1.055-5.11,6.166,6.166,0,0,1,2.444-3.389,6.792,6.792,0,0,1,1.667-.722A3.7,3.7,0,0,0,247.94,274.4Zm0.112,2.444c-0.324.241-.882,0.231-1.222,0.444a3.857,3.857,0,0,0-1.445,1.778,3.5,3.5,0,0,0,1.222,3.888,6.238,6.238,0,0,0,.667.278,3.046,3.046,0,0,0,1.889.278c1.787-.447,3.59-2.556,2.444-4.778A3.6,3.6,0,0,0,248.052,276.846Zm-2,9.165a3.053,3.053,0,0,1-.667.056,5.391,5.391,0,0,0-1.166.333c-2.236,1.183-2.521,2.655-2.5,6.055a5.268,5.268,0,0,0,1.333.056h12.277a9.741,9.741,0,0,0,.055-2.556l-0.222-1a6.316,6.316,0,0,0-.778-1.388,4.65,4.65,0,0,0-2.111-1.389,8.545,8.545,0,0,0-2.333-.111Z" transform="translate(-171 -209)"/>
+</svg>

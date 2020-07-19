@@ -1,0 +1,35 @@
+<svg id="Menu-Cliose" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="165" height="162.5" viewBox="0 0 165 162.5">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #2fcc70;
+        stroke-linejoin: round;
+        stroke-opacity: 0.36;
+        stroke-width: 1px;
+        filter: url(#filter);
+      }
+
+      .cls-2 {
+        fill: #2fcc70;
+        fill-rule: evenodd;
+        opacity: 0.85;
+      }
+    </style>
+    <filter id="filter" x="-0.5" y="-0.5" width="166" height="166" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="3.708" dy="11.413" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="6.164"/>
+      <feFlood result="flood" flood-opacity="0.08"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="34.5" y="27.5" width="87" height="87" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iODciIGhlaWdodD0iODciIHZpZXdCb3g9IjAgMCA4NyA4NyI+CiAgPGRlZnM+CiAgICA8c3R5bGU+CiAgICAgIC5jbHMtMSB7CiAgICAgICAgb3BhY2l0eTogMC4wOTsKICAgICAgICBmaWxsOiB1cmwoI2xpbmVhci1ncmFkaWVudCk7CiAgICAgIH0KICAgIDwvc3R5bGU+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImxpbmVhci1ncmFkaWVudCIgeTE9IjYyLjg2NyIgeDI9Ijg3IiB5Mj0iMjQuMTMzIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iLTAuMjUiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIxLjI1IiBzdG9wLWNvbG9yPSIjZmZmIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCBjbGFzcz0iY2xzLTEiIHdpZHRoPSI4NyIgaGVpZ2h0PSI4NyIvPgo8L3N2Zz4K"/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" in2="blend"/>
+    </filter>
+  </defs>
+  <g style="fill: #fff; filter: url(#filter)">
+    <circle id="circle" class="cls-1" cx="78" cy="71" r="43.5" style="stroke: inherit; filter: none; fill: inherit"/>
+  </g>
+  <use xlink:href="#circle" style="stroke: #2fcc70; filter: none; fill: none"/>
+  <path id="new_vector_shape_done" class="cls-2" d="M124.845,81.108a12.059,12.059,0,0,0,3.06.073h6.738c3.013,0,6.213-.037,9.107-0.073l0.874,0.291a2.128,2.128,0,0,0,.291.437c0.075,0.741-.019,1.436-0.874,1.457a11.737,11.737,0,0,1-2.914.073h-6.519c-3.439,0-7.1.158-10.418-.073a4.5,4.5,0,0,0-.51-0.51,3.72,3.72,0,0,1,.072-1.166A7.252,7.252,0,0,0,124.845,81.108Zm-0.146,8.26c13.211,0,6.812-.161,19.779.146,0.18,0.407.759,0.942,0.292,1.6-0.326.461-1.324,0.437-2.113,0.437H126.521c-0.856,0-2.087.13-2.55-.291a1.545,1.545,0,0,1-.291-1.166,2.93,2.93,0,0,0,.291-0.437A3.806,3.806,0,0,0,124.7,89.368Zm-0.145,8.187h15.334a26.027,26.027,0,0,1,4.663.146l0.364,0.51a1.451,1.451,0,0,1-.291,1.311c-0.566.4-1.585,0.219-2.55,0.219H125.938c-0.873,0-1.806.136-2.186-.437a1.8,1.8,0,0,1,0-1.311l0.51-.364A0.473,0.473,0,0,0,124.554,97.555Z" transform="translate(-55.5 -20.5)"/>
+</svg>

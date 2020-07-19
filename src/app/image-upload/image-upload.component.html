@@ -1,0 +1,45 @@
+<h2>Image cropper practice</h2>
+
+<input type="file" (change)="fileChangeEvent($event)" />
+<br />
+<br />
+<button (click)="rotateLeft()">Rotate left</button>
+<button (click)="rotateRight()">Rotate right</button>
+<button (click)="flipHorizontal()">Flip horizontal</button>
+<button (click)="flipVertical()">Flip vertical</button>
+<br />
+<br />
+<button (click)="toggleContainWithinAspectRatio()">{{containWithinAspectRatio?'Fill Aspect Ratio':'Contain Within Aspect Ratio'}}</button>
+<button (click)="resetImage()">Reset image</button>
+<br />
+<br />
+<input [(ngModel)]="rotation" placeholder="Rotation" type="number" (keyup)="updateRotation()" /> <button (click)="zoomOut()">Zoom -</button> <button (click)="zoomIn()">Zoom +</button>
+<div class="row">
+    <div class="col-md-6">
+        <image-cropper
+        style="width: 300px;height: 350px;float: left;"
+            [imageChangedEvent]="imageChangedEvent"
+            format="png"
+            [aspectRatio] = "1/1"
+            (imageCropped)="imageCropped($event)"
+            [roundCropper] = "true"
+            [resizeToWidth]="130"
+            [cropperMinWidth] = "130"
+            [onlyScaleDown] = "true"
+            [imageFile]= null
+        [maintainAspectRatio]="true"
+        [containWithinAspectRatio]="containWithinAspectRatio"
+        [canvasRotation]="canvasRotation"
+        [transform]="transform"
+        [alignImage]="'left'"
+        (imageLoaded)="imageLoaded()"
+        (cropperReady)="cropperReady($event)"
+        (loadImageFailed)="loadImageFailed()"
+        ></image-cropper>
+    </div>
+    <div class="col-md-6">
+
+<img [src]="croppedImage" style="width: 130px;height: 130px;float: left;border-radius: 100%;" />
+
+    </div>
+</div>
